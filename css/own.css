@@ -3,14 +3,38 @@ body{
 	color: #2C2C2C;
 }
 
-
 .top-round{
-	-webkit-border-top-left-radius: 7px;
-	-webkit-border-top-right-radius: 7px;
-	-moz-border-radius-topleft: 7px;
-	-moz-border-radius-topright: 7px;
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+}
+
+.rnd-brd-10{
+    -webkit-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border-bottom: 1px #AAAAAA dashed;	
+}
+
+#cp section.category h3{
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px #AAAAAA dashed;	    
+}
+
+.main article{
+    width: 100%;
+    padding: 0 3%;
 }
 
 article section .date_what h3{
@@ -54,12 +78,21 @@ h1#name{
 	font-size: 145%;
 }
 
+.main article h3{
+    padding-bottom: 12px;
+}    
 
+.main article h1, 
+.main article h2, 
+.main article h3{
+    opacity: 0.4;
+}
 
 div.pre-main-container{
     background-image: url("../img/orange-arrow.png");
     background-repeat: repeat-x;
-
+    background-color: #D6D6D6;
+    padding: 10px 0 30px 0;
 }
 
 .pre-main-container p{
@@ -70,15 +103,12 @@ div.pre-main-container{
 section#cp section.category{
 	float:left;
 	display: inline;
-	width: 14%;
-	min-height: 255px;
+	width: 30%;
+	height: auto;
 	background: url("../img/concrete-bg.png") repeat scroll;
 	margin: 10px;
 }
 
-.rnd-brd-10{
-	border-bottom: 1px #AAAAAA dashed;	
-}
 
 section#cp section.category h3{
 	text-align: center;
@@ -219,3 +249,28 @@ section#cp .techno li:hover{
 	color:  #F16529;
 }
 
+.main article li, main article p{
+    font-size: 80%;
+}
+
+.main article h1{
+    text-align: center;
+}
+
+.main article h4{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+
+section#xp div.role{
+    float:left;
+    width: 33%;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    height: auto;
+}
+
+.clear{
+    clear:left;
+}
