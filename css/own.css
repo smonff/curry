@@ -1,0 +1,221 @@
+body{
+	background-color: #DDDDDD;
+	color: #2C2C2C;
+}
+
+
+.top-round{
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+article section .date_what h3{
+	display: inline;
+}
+
+span.date_what{
+	overflow: ;
+}
+
+.header-container header{
+	text-align: center;
+}
+
+.header-container .title{
+	margin: 0;
+	float: none;
+}
+
+div.header-container h1, div.header-container h2, div.header-container p{
+	text-align: left;
+	display: block;
+	padding-left: 20%;
+}
+
+nav{
+	width:94%;
+
+}
+
+nav a{
+	width: 20%;
+	padding: 11px 0;
+}
+
+header nav{
+	padding-top: 12px;
+}
+
+h1#name{
+	font-size: 145%;
+}
+
+
+
+div.pre-main-container{
+    background-image: url("../img/orange-arrow.png");
+    background-repeat: repeat-x;
+
+}
+
+.pre-main-container p{
+	padding: 50px 10% 0 10%;
+}
+
+
+section#cp section.category{
+	float:left;
+	display: inline;
+	width: 14%;
+	min-height: 255px;
+	background: url("../img/concrete-bg.png") repeat scroll;
+	margin: 10px;
+}
+
+.rnd-brd-10{
+	border-bottom: 1px #AAAAAA dashed;	
+}
+
+section#cp section.category h3{
+	text-align: center;
+}
+
+section#cp{
+	display:block;
+	width:100%;
+}
+
+
+section#cp section.category li{
+	display:inline;
+	list-style-type: none;
+	font-size: 80%;
+}
+
+section#cp section.category h3{
+	padding: 6px;
+	font-size: 80%;
+	background-color: #6D6D6D;
+	color:white;
+	font-family: monospace;
+}
+
+section#cp ul.techno {
+	padding:6px 16px 16px;
+}
+
+section#cp .techno li{
+	background-color: white;
+	border: 2px solid #2C2C2C;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+    border-radius: 7px;
+    font-size: 90%;
+    line-height: 2.4;
+    margin: 2px 2px 2px 0;
+    padding: 3px 5px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+section#cp .techno .gold{
+	color: #FFCC00;
+	border-color: #FFCC00;
+}
+
+section#cp .techno .gold:hover{
+	background-color: #FFCC00;
+}
+
+section#cp .techno .silver{
+	color: #C5C5C5;
+	border-color: #C5C5C5;
+}
+
+
+section#cp .techno .silver:hover{
+	background-color: #C5C5C5;
+}
+
+section#cp .techno .bronze{
+	color: #CC9966;
+	border-color: #CC9966;
+}
+
+
+section#cp .techno .bronze:hover{
+	background-color: #CC9966;
+}
+
+section#cp .techno li:hover{
+	color: white;
+}
+
+/*section.category:last-child{*/
+.spacer{
+	clear:both;
+}
+
+::-moz-selection {
+	background: #F16529;
+	color: black;
+	text-shadow: none;
+}
+
+::-webkit-selection{
+    background: #F16529;
+    color: black;
+    text-shadow: none;
+}
+
+::selection { 
+	background: #F16529;
+	color: black;
+	text-shadow: none;
+}
+
+/* Question trick : fake feedback image button */
+/* http://www.alexpeattie.com/projects/feedback_button/ */
+#printer{ 
+    height: 104px; 
+    width: 104px; 
+    position: fixed; 
+    top: 40%;
+    left: 0; 
+    z-index: 1000;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    -o-transform: rotate(-90deg); 
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    transform: rotate(-90deg);
+}
+
+#printer a { 
+    display: inline; 
+    background-color:  #F16529; 
+    height: 15px; 
+    width: 78px; 
+    padding: 8px 16px;
+    color: white; 
+    font-family: Arial, sans-serif; 
+    font-size: 15px; 
+    font-weight: bold; 
+    text-decoration: none;
+    border-top: dashed 1px #ea9b6d; 
+    border-bottom: solid 1px #333; 
+    border-left: solid 1px #333; 
+    border-right: solid 1px #fff;
+}
+
+#printer a:hover { 
+	background-color:white;
+	color:  #F16529;
+}
+
