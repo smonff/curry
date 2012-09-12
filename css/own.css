@@ -5,8 +5,8 @@ body{
 
 
 h1,h2,h3,h3,h4,h5,h6,nav a{
- text-shadow: 2px 2px 2px #6e6e6e;
- filter: dropshadow(color=#6e6e6e, offx=2, offy=2);
+ text-shadow: 1px 1px 2px #6e6e6e;
+ filter: dropshadow(color=#6e6e6e, offx=1, offy=1);
 
 }
 
@@ -92,6 +92,14 @@ header nav{
 	padding-top: 12px;
 }
 
+h2{    
+    color:#E44D26;
+    opacity:0.8;
+    margin-left: -20px;
+    margin-bottom: 14px;
+}
+
+
 h1#name{
 	font-size: 145%;
 }
@@ -100,12 +108,34 @@ h1#name{
     padding-bottom: 12px;
 }    
 
-.main article h1, 
-.main article h2, 
+
+
 .main article h3,
 .main article h4{
     opacity: 0.4;
 }
+
+
+.main article div.section-title{
+    display: block;
+    margin-left:-10px;
+    margin-bottom:10px;
+}
+
+.main article div.section-title small{
+    max-width: 50px;
+    font-size: 130%;
+}
+
+.main article div.section-title p{
+    margin:15px 2%;
+    padding: 0 1%;
+}
+
+.main article h3{
+    display: inline;
+}
+
 
 div.pre-main-container{
     background-image: url("../img/orange-arrow.png");
@@ -272,8 +302,8 @@ section#cp .techno li:hover{
     font-size: 80%;
 }
 
-.main article h1{
-    text-align: center;
+.main article h2{
+    text-align: left;
 }
 
 .main article h4{
@@ -281,16 +311,28 @@ section#cp .techno li:hover{
     margin-bottom: 0;
 }
 
-
 section#xp div.role{
     float:left;
     width: 33%;
     padding-bottom: 30px;
     padding-left: 25px;
     height: auto;
- 
+}
+
+section#xp div.role ul{
+    padding: 0 20px 0 40px;
+}
+
+section#xp div.role h4{
+    padding-left: 15px;
 }
 
 .clear{
     clear:left;
+}
+
+#techabilities{
+    background-image: url("../img/8bit-dynamiclist.gif");
+    background-repeat: no-repeat;
+    padding-left:36px;
 }
