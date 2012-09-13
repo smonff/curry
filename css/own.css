@@ -229,11 +229,19 @@ section#cp section.category li{
 section#cp section.category h3{
 	padding: 6px;
 	font-size: 91%;
-	background-color: #F16529;
+	background-color: black;
+    opacity: 0.8;
 	color:white;
     font-family: 'Carter One';
     
     display:block;
+}
+
+#techabilities{
+    background-image: url("../img/8bit-dynamiclist.gif");
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding-left:36px;
 }
 
 section#cp ul.techno {
@@ -316,8 +324,8 @@ section#cp .techno li:hover{
 /* Question trick : fake feedback image button */
 /* http://www.alexpeattie.com/projects/feedback_button/ */
 #printer{ 
-    height: 104px; 
-    width: 104px; 
+    height: 115px; 
+    width: 115px; 
     position: fixed; 
     top: 40%;
     left: 0; 
@@ -331,10 +339,10 @@ section#cp .techno li:hover{
 
 #printer a { 
     display: inline; 
-    background-color:  #F16529; 
+    background:  #F16529 url(" ../img/print.png") no-repeat 1px 7px;
     height: 15px; 
     width: 78px; 
-    padding: 8px 16px;
+    padding: 8px 16px 8px 32px;
     color: white; 
     font-family: Arial, sans-serif; 
     font-size: 15px; 
@@ -385,8 +393,3 @@ section#xp div.role h4{
     clear:left;
 }
 
-#techabilities{
-    background-image: url("../img/8bit-dynamiclist.gif");
-    background-repeat: no-repeat;
-    padding-left:36px;
-}
