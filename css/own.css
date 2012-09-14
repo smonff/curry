@@ -360,7 +360,7 @@ section#cp .techno li:hover{
 }
 
 .main article li, main article p{
-    font-size: 80%;
+    font-size: 95%;
 }
 
 .main article h2{
@@ -393,3 +393,23 @@ section#xp div.role h4{
     clear:left;
 }
 
+.footer-container{
+    text-align:center;
+}
+
+.footer-container li{
+    display: inline;
+    padding-left: 25px
+}
+
+.footer-container footer ul{
+    padding-bottom: 20px;
+}
+
+.footer-container a{
+    color: white;
+}
+
+section#cp, section#fm, section#int{
+    padding-bottom: 25px;
+}
