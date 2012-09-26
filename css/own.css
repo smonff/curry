@@ -49,6 +49,10 @@ article h3, article h4, article h5, article h6{
     filter: dropshadow(color=#B3B3B3, offx=1, offy=1);
 }
 
+.header-container h2{
+    font-size: 1.7em;
+}
+
 acronym{
     border-bottom:none;
 }
