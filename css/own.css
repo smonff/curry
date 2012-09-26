@@ -5,7 +5,7 @@ body{
 }
 
 a, body{
-    color: #2C2C2C;   
+    color: #2C2C2C;
 }
 
 a,a:hover,h2{
@@ -14,6 +14,10 @@ a,a:hover,h2{
 
 a:hover{
     text-decoration: none;
+}
+
+h4 a, h4 a:hover{
+    color: #2C2C2C;
 }
 
 h2,h3,h4{
@@ -25,6 +29,9 @@ h2{
     margin-bottom: 14px;
 }
 
+em{
+    font-style: italic;
+}
 
 h1,h2,h3,h4,h5,h6,nav a{
     text-shadow: 1px 1px 2px #6e6e6e;
@@ -246,6 +253,8 @@ section#cp section.category h3{
 
 section#cp ul.techno {
 	padding:6px 16px 16px;
+	font-weight:bold;
+	font-size:small;
 }
 
 section#cp .techno li{
