@@ -39,9 +39,13 @@
   }
 
   p {
-    margin: 75px;
+    margin: 25px 75px 25px 75;
     font-size: 40px;
   }
+
+.center{
+    text-align:center;
+}
 
 img{
     text-align: center;
