@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 
 <meta charset="utf-8">
-<title>The Title Of Your Presentation</title>
+<title>Et sinon çà consiste en quoi ton travail ?</title>
 
 <!-- Your Slides -->
 <!-- One section is one slide -->
 
 <section>
     <!-- This is the first slide -->
-    <h1>My Presentation</h1>
-    <footer>by John Doe</footer>
+    <h1>Et sinon, çà consiste en quoi ton travail ?</h1>
+    <p>bla bla</p>
+    <footer>Sébastien Feugère</footer>
 </section>
 
 <section>
-    <p>Some random text: But I've never been to the moon! You can see how I lived before I met you. Also Zoidberg.
-    I could if you hadn't turned on the light and shut off my stereo.</p>
-</section>
-
-<section>
-    <h3>An incremental list</h3>
-    <ul class="incremental">
-      <li>Item 1
-      <li>Item 2
-      <li>Item 3
+    <h3>Ceci n'est pas de la peinture, mais:</h3>
+    <ul>
+      <li>des peintures qui cherchent à jouer les passe murailles</li> 
+      <li>interragissant avec leur contexte</li> 
+      <li>racontent une histoire</li>
+      <li>positionner des techniques artisanales face aux nouvelles technologies</li>
     </ul>
-    <div role="note">Some notes. They are only visible using onstage shell.</div>
+    <footer>Se faufiler en dehors</footer>
 </section>
 
 <section>
+  <img src="./img/ici.png" />
+  <footer>
+    <h3 class="title">Ici, là bas & à côté, 2004, acrylique, néons, vidéos, Galerie du Haïdouc</h3>
+    Se faufiler en dehors
+  </footer>
+</section>
+
+<section>
+  <img src="./img/rentrer.png" />
+  <footer>
+    <h3 class="title">Je veux rentrer, 2004, gouache, miroirs et matériel de nettoyage, ENSA Bourges</h3>
+    Se faufiler en dehors
+  </footer>
+</section>
+
+<section>
+  <img src="./img/le_reste.png" />
+  <footer>
+    <h3 class="title">Suivant les pointillés, 2004, peinture glycéro sur tour HLM, projet le Reste de Mounir Fatmi</h3>
+    Se faufiler en dehors
+  </footer>
+</section>
+
+
+<section>
+  <h3></h3>
+  <ul class="incremental">
+    <li>Item 1
+    <li>Item 2
+    <li>Item 3
+  </ul>
+</section>
+  
+<section>
+
   <blockquote>
     Who's brave enough to fly into something we all keep calling a death sphere?
   </blockquote>
@@ -66,137 +98,7 @@
 
 <!-- Maybe a font from http://www.google.com/webfonts ? -->
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
-
-<style>
-  html, .view body { background-color: black; counter-reset: slideidx; }
-  body, .view section { background-color: white; border-radius: 12px }
-  /* A section is a slide. It's size is 800x600, and this will never change */
-  section, .view head > title {
-      /* The font from Google */
-      font-family: 'Oswald', arial, serif;
-      font-size: 30px;
-  }
-
-  .view section:after {
-    counter-increment: slideidx;
-    content: counter(slideidx, decimal-leading-zero);
-    position: absolute; bottom: -80px; right: 100px;
-    color: white;
-  }
-
-  .view head > title {
-    color: white;
-    text-align: center;
-    margin: 1em 0 1em 0;
-  }
-
-  h1, h2 {
-    margin-top: 200px;
-    text-align: center;
-    font-size: 80px;
-  }
-  h3 {
-    margin: 100px 0 50px 100px;
-  }
-
-  ul {
-      margin: 50px 200px;
-  }
-
-  p {
-    margin: 75px;
-    font-size: 50px;
-  }
-
-  blockquote {
-    height: 100%;
-    background-color: black;
-    color: white;
-    font-size: 60px;
-    padding: 50px;
-  }
-  blockquote:before {
-    content: open-quote;
-  }
-  blockquote:after {
-    content: close-quote;
-  }
-
-  /* Figures are displayed full-page, with the caption
-     on top of the image/video */
-  figure {
-    background-color: black;
-    width: 100%;
-    height: 100%;
-  }
-  figure > * {
-    position: absolute;
-  }
-  figure > img, figure > video {
-    width: 100%; height: 100%;
-  }
-  figcaption {
-    margin: 70px;
-    font-size: 50px;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 40px;
-    text-align: right;
-    background-color: #F3F4F8;
-    border-top: 1px solid #CCC;
-  }
-
-  /* Transition effect */
-  /* Feel free to change the transition effect for original
-     animations. See here:
-     https://developer.mozilla.org/en/CSS/CSS_transitions
-     How to use CSS3 Transitions: */
-  section {
-    -moz-transition: left 400ms linear 0s;
-    -webkit-transition: left 400ms linear 0s;
-    -ms-transition: left 400ms linear 0s;
-    transition: left 400ms linear 0s;
-  }
-  .view section {
-    -moz-transition: none;
-    -webkit-transition: none;
-    -ms-transition: none;
-    transition: none;
-  }
-
-  .view section[aria-selected] {
-    border: 5px red solid;
-  }
-
-  /* Before */
-  section { left: -150%; }
-  /* Now */
-  section[aria-selected] { left: 0; }
-  /* After */
-  section[aria-selected] ~ section { left: +150%; }
-
-  /* Incremental elements */
-
-  /* By default, visible */
-  .incremental > * { opacity: 1; }
-
-  /* The current item */
-  .incremental > *[aria-selected] { opacity: 1; }
-
-  /* The items to-be-selected */
-  .incremental > *[aria-selected] ~ * { opacity: 0; }
-
-  /* The progressbar, at the bottom of the slides, show the global
-     progress of the presentation. */
-  #progress-bar {
-    height: 2px;
-    background: #AAA;
-  }
-</style>
+<link href='./style.css' rel='stylesheet'>
 
 <!-- {{{{ dzslides core
 #
