@@ -52,6 +52,23 @@ img{
     border-radius: 12px;
 }
 
+.sss h3{
+    margin-bottom:15px;
+}
+
+.sss img{
+    padding: 0 70% 0 30% ;
+}
+
+.sss ul{
+    margin-top:25px;
+    margin-bottom:5px;
+}
+
+section.cat{
+    background: 0 60%  url('./img/cat.png') no-repeat scroll;
+}
+
   blockquote {
     height: 100%;
     background-color: black;
@@ -79,6 +96,11 @@ img{
   figure > img, figure > video {
     width: 100%; height: 100%;
   }
+
+  div.ety img {
+    padding:0 5%;
+  }
+
   figcaption {
     margin: 70px;
     font-size: 50px;
